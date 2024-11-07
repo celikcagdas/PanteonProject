@@ -1,0 +1,520 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1730684507031431, "dur": 1563252, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1730684507031671, "dur": 1840, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1730684507033512, "dur": 24094, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1730684507057607, "dur": 765430, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1730684507823038, "dur": 770471, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1730684508593511, "dur": 1173, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1730684508595195, "dur": 13, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1730684507663845, "dur": 147151, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1730684507664678, "dur": 40522, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1730684507794324, "dur": 4336, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1730684507798664, "dur": 12328, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1730684507799270, "dur": 11085, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1730684507814731, "dur": 1049, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1730684507814075, "dur": 1728, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1730684508599371, "dur": 360, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1730684507862471, "dur":1118, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684507863595, "dur":47, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1730684507863661, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1730684507863676, "dur":471, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1730684507864168, "dur":467, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684507864635, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583152, "dur":284, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583436, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583467, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583470, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583494, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583496, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583501, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583503, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583509, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583510, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583515, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583516, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583520, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583522, "dur":83, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583605, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583606, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583612, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583613, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583618, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583619, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583624, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583626, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583630, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583631, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583636, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583637, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583641, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583643, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583647, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583649, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583653, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583655, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583659, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583682, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508583691, "dur":1111, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1730684507864395, "dur":249, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730684507864649, "dur":8292, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730684507872951, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1730684507872961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730684507880927, "dur":372, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1730684507881305, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1730684507881329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730684507881876, "dur":3568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1730684507885447, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1730684507885930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730684507885938, "dur":4560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1730684507890660, "dur":28271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730684507919076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730684507920555, "dur":4430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730684507925007, "dur":27522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730684507952533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730684507952540, "dur":6525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730684507959085, "dur":50329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730684508009418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730684508009426, "dur":2249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730684508011691, "dur":31794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730684508043488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730684508043494, "dur":6377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730684508049887, "dur":44511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730684508094404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730684508094415, "dur":8688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730684508103120, "dur":34781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730684508137910, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730684508137924, "dur":4500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730684508142441, "dur":172835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730684508315283, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730684508315296, "dur":1921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730684508317229, "dur":220264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730684508537498, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730684508537508, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730684508538884, "dur":44266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730684507864480, "dur":189, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730684507864669, "dur":8302, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730684507872972, "dur":539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1730684507873514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730684507879927, "dur":5721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1730684507886260, "dur":513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1730684507886777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730684507886784, "dur":4430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1730684507891424, "dur":52019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730684507943450, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730684507943462, "dur":6703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730684507950188, "dur":25133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730684507975328, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730684507975340, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730684507977252, "dur":133426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730684508110682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730684508110693, "dur":14224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730684508124945, "dur":56332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730684508181285, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730684508181299, "dur":3360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730684508184679, "dur":267154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730684508451837, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730684508451846, "dur":2802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730684508454664, "dur":128511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730684507864431, "dur":223, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730684507864654, "dur":8292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730684507872951, "dur":11955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1730684507884909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730684507884924, "dur":3566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1730684507888842, "dur":101982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730684507990828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730684507990839, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730684507993498, "dur":64698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730684508058204, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730684508058217, "dur":3034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730684508061271, "dur":33126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730684508094403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730684508094415, "dur":8557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730684508102996, "dur":79512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730684508182512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730684508182535, "dur":4411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730684508186975, "dur":120409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730684508307390, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730684508307401, "dur":9783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730684508317205, "dur":262706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730684508579916, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730684508579925, "dur":3170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730684508583111, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1730684508583114, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1730684507864466, "dur":195, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1730684507864661, "dur":8283, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1730684507872965, "dur":591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1730684507873575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1730684507878918, "dur":9045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1730684507888533, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1730684507889084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1730684507889777, "dur":10398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1730684507900330, "dur":148213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730684508048550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1730684508048586, "dur":2764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730684508051368, "dur":25939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730684508077311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1730684508077317, "dur":4839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730684508082171, "dur":32931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730684508115133, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1730684508115147, "dur":12288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730684508127461, "dur":55513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730684508182977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1730684508182984, "dur":5273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730684508188272, "dur":188053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730684508376331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1730684508376499, "dur":3352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730684508379874, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1730684508379895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1730684508379904, "dur":8885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1730684508388810, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1730684508389035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1730684508389040, "dur":5931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1730684508394994, "dur":188155, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730684507864507, "dur":170, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730684507864677, "dur":8289, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730684507872968, "dur":1468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1730684507874439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730684507880559, "dur":6070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1730684507887055, "dur":59177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster.exe" }}
+,{ "pid":12345, "tid":5, "ts":1730684507946238, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730684507946246, "dur":2877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster.exe" }}
+,{ "pid":12345, "tid":5, "ts":1730684507949143, "dur":75154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1730684508024419, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730684508024433, "dur":4710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1730684508029164, "dur":30707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1730684508059879, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730684508059891, "dur":2830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1730684508062739, "dur":31839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1730684508094582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730684508094588, "dur":13968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1730684508108575, "dur":54219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1730684508162802, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730684508162840, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1730684508165022, "dur":254756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1730684508419785, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730684508419797, "dur":1993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1730684508421805, "dur":161389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730684507864536, "dur":148, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730684507864684, "dur":8274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730684507872961, "dur":803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1730684507873767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730684507879698, "dur":6543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1730684507886536, "dur":214963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1730684508101503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730684508101541, "dur":23798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1730684508125578, "dur":28766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1730684508154351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730684508154363, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1730684508156190, "dur":73062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1730684508229258, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730684508229269, "dur":1927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1730684508231210, "dur":122640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1730684508353857, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730684508353870, "dur":1790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1730684508355677, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1730684508355694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730684508355824, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1730684508357808, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1730684508357823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730684508357831, "dur":8182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1730684508366035, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1730684508366050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730684508366060, "dur":2504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1730684508368584, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1730684508368964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730684508368974, "dur":1640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1730684508370629, "dur":6760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1730684508377394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730684508377403, "dur":4418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1730684508381838, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1730684508381853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730684508381861, "dur":9856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1730684508391737, "dur":191409, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730684507864565, "dur":124, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730684507864689, "dur":8253, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730684507872951, "dur":43276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1730684507916234, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730684507916952, "dur":2385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1730684507919487, "dur":32647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730684507952140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730684507952151, "dur":6230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730684507958401, "dur":186123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730684508144530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730684508144540, "dur":4257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730684508148820, "dur":57565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730684508206391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730684508206401, "dur":2592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730684508209009, "dur":43187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730684508252202, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730684508252214, "dur":1746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730684508253974, "dur":48636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730684508302613, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730684508302620, "dur":7617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730684508310253, "dur":60574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730684508370830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730684508370839, "dur":5353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730684508376214, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1730684508376230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730684508376239, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1730684508378299, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1730684508378313, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730684508378320, "dur":2173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1730684508380513, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1730684508380556, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730684508380563, "dur":10853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1730684508391443, "dur":191783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730684507864592, "dur":103, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730684507864695, "dur":8268, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730684507872964, "dur":12091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1730684507885058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730684507885356, "dur":3438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1730684507888970, "dur":27629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730684507916602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730684507916990, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730684507919141, "dur":31125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730684507950269, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730684507950280, "dur":7502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730684507957801, "dur":146632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730684508104436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730684508104448, "dur":3287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730684508107763, "dur":33777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730684508141546, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730684508141558, "dur":6511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730684508148090, "dur":33389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730684508181482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730684508181489, "dur":3843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730684508185348, "dur":73971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730684508259323, "dur":407, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730684508259737, "dur":2128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730684508261878, "dur":215139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730684508477024, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730684508477056, "dur":2757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730684508479835, "dur":103330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730684507864618, "dur":85, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730684507864704, "dur":8259, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730684507872967, "dur":1505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1730684507874475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730684507880586, "dur":5897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1730684507887013, "dur":99112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1730684507986128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730684507986134, "dur":2956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1730684507989230, "dur":26995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730684508016229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730684508016236, "dur":5307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730684508021561, "dur":48194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730684508069763, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730684508069775, "dur":7872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730684508077669, "dur":30119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730684508107792, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730684508107805, "dur":4403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730684508112243, "dur":31002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730684508143248, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730684508143255, "dur":6648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730684508149923, "dur":150675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730684508300605, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730684508300618, "dur":6828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730684508307469, "dur":135249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730684508442726, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730684508442740, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730684508444749, "dur":138454, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730684507864656, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730684507864656, "dur":8304, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730684507872960, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1730684507873287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730684507881916, "dur":4312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1730684507886465, "dur":149799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730684508036272, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730684508036551, "dur":5805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730684508042538, "dur":23968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730684508066513, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730684508066526, "dur":5256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730684508071804, "dur":48510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730684508120322, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730684508120337, "dur":8052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730684508128408, "dur":54969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730684508183381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730684508183387, "dur":4672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730684508188078, "dur":207174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730684508395256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730684508395265, "dur":2255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730684508397538, "dur":185607, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730684507864693, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730684507864694, "dur":8267, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730684507872961, "dur":11787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1730684507884754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730684507885299, "dur":3493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1730684507888978, "dur":31525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730684507920506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730684507920513, "dur":5566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730684507926097, "dur":28842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730684507954947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730684507954958, "dur":4040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730684507959013, "dur":56075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730684508015095, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730684508015107, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730684508017211, "dur":26145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730684508043360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730684508043370, "dur":6195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730684508049588, "dur":27546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730684508077142, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730684508077155, "dur":4421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730684508081602, "dur":26272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730684508107878, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730684508107887, "dur":2521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730684508110429, "dur":148446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730684508258879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730684508258909, "dur":4243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730684508263168, "dur":211524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730684508474701, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730684508474714, "dur":2346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730684508477076, "dur":106093, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730684507864733, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730684507864734, "dur":8246, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730684507872980, "dur":12170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1730684507885154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730684507885168, "dur":4684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1730684507890204, "dur":54070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730684507944279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730684507944287, "dur":6290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730684507950596, "dur":40431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730684507991033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730684507991043, "dur":2684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730684507993744, "dur":49614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730684508043362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730684508043370, "dur":6203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730684508049599, "dur":65842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730684508115445, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730684508115452, "dur":12693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730684508128161, "dur":29209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730684508157376, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730684508157389, "dur":2018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730684508159427, "dur":101504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730684508260934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730684508260941, "dur":4461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730684508265418, "dur":57864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730684508323289, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730684508323301, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730684508325182, "dur":59834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730684508385023, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730684508385035, "dur":3561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730684508388629, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1730684508388646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730684508388656, "dur":6717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1730684508395395, "dur":187753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1730684507864761, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1730684507864761, "dur":8209, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1730684507872970, "dur":11808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1730684507884784, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1730684507885150, "dur":4594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1730684507890003, "dur":53493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1730684507943502, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1730684507943513, "dur":6457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1730684507949990, "dur":87138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1730684508037135, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1730684508037148, "dur":3387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1730684508040556, "dur":26506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1730684508067068, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1730684508067078, "dur":4845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1730684508071946, "dur":126829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1730684508198781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1730684508198791, "dur":1942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1730684508200747, "dur":97833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":13, "ts":1730684508298587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1730684508298599, "dur":3692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":13, "ts":1730684508302312, "dur":147365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1730684508449682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1730684508449691, "dur":2161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1730684508451870, "dur":131311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1730684507864785, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1730684507864785, "dur":8183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1730684507872970, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1730684507873294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1730684507881030, "dur":4811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1730684507886104, "dur":502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":14, "ts":1730684507886608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1730684507886615, "dur":4878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":14, "ts":1730684507891669, "dur":28325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1730684507919998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1730684507920178, "dur":3126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1730684507923327, "dur":27167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1730684507950498, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1730684507950508, "dur":4935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1730684507955469, "dur":53536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1730684508009011, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1730684508009025, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1730684508011328, "dur":28014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1730684508039349, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1730684508039363, "dur":6564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1730684508045948, "dur":64719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1730684508110674, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1730684508110688, "dur":16869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1730684508127586, "dur":47096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1730684508174692, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1730684508174935, "dur":1803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1730684508176752, "dur":125577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":14, "ts":1730684508302333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1730684508302343, "dur":6699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":14, "ts":1730684508309065, "dur":135271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":14, "ts":1730684508444343, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1730684508444356, "dur":2050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":14, "ts":1730684508446421, "dur":136767, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1730684507864814, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1730684507864815, "dur":8138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1730684507872956, "dur":682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1730684507873641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1730684507879490, "dur":6428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1730684507886292, "dur":59659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1730684507945956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1730684507946439, "dur":2758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1730684507949371, "dur":44979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1730684507994355, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1730684507994368, "dur":5584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1730684507999978, "dur":40067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1730684508040048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1730684508040055, "dur":3044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1730684508043115, "dur":50403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1730684508093526, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1730684508093539, "dur":7255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1730684508100819, "dur":38914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1730684508139741, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1730684508139753, "dur":4963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1730684508144736, "dur":43460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1730684508188222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1730684508188232, "dur":9425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1730684508197677, "dur":207019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1730684508404730, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1730684508404742, "dur":1929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1730684508406683, "dur":176533, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1730684507864841, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1730684507864842, "dur":8114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1730684507872959, "dur":12808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1730684507885770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1730684507885785, "dur":3612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1730684507889556, "dur":62997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1730684507952556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1730684507952563, "dur":6344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1730684507958923, "dur":24991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1730684507983921, "dur":185, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1730684507984118, "dur":1677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1730684507985809, "dur":109977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1730684508095790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1730684508095798, "dur":8115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1730684508103930, "dur":39182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1730684508143116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1730684508143126, "dur":5924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1730684508149070, "dur":109302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1730684508258378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1730684508258389, "dur":2500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1730684508260905, "dur":219667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":16, "ts":1730684508480577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1730684508480587, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/celik/OneDrive/Masast/build/RunMaster_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":16, "ts":1730684508482225, "dur":100933, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730684508586161, "dur":1589, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1730684508599767, "dur": 491, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1730684508595182, "dur": 5094, "ph": "X", "name": "Write chrome-trace events", "args": {} },
